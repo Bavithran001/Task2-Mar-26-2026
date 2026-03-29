@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 5</title>
+</head>
+<body>
+<div id="box">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+<script>
+let spans = document.querySelectorAll("#box span");
+spans.forEach((span,index) => {
+    span.textContent = "HI " + (index+1);
+    box.style.padding = "10px";
+    span.style.padding = "10px";
+    span.style.border = "1px solid green";
+    span.style.backgroundColor = "red";
+    span.style.color = "white";
+});
+</script>
+</script>
+</body>
+</html>
